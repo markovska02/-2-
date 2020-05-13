@@ -1,0 +1,133 @@
+body {
+	margin: 0;
+	font-family: 'Amatic SC', cursive;
+	font-size: 15px;
+	color: #4a0000
+	line-height: 1.6;
+}
+*,
+*:after {
+	box-sizing: border-box;
+}
+.container {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width:100%;
+	height: 100vh;
+	background: url("../css/images/fon.jpg") center;
+	background-size: cover;
+}
+.intro_2 {
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+	text-align: center;
+}
+.intro_3 {
+	width: 100%;
+	margin: 0 auto;
+}
+.intro_title {
+	color: #ff0004;
+	font-size: 100px;
+	font-weight: bold;
+	line-height: 1.1;
+}
+.intro_title:after {
+	content:"";
+	display: block;
+	width: 80px;
+	height: 3px;
+	background-color: #ff0004;
+	margin:70px auto; 
+}
+.intro_m {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	color: #333;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1;
+	padding-top: 70px;
+}
+.knp {
+	display: inline-block;
+	vertical-align: top;
+	padding: 8px 19px;
+	border: 3px solid #ff0004;
+	color: #ff0004;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	transition: background 0.1s linear, color 0.1s linear;
+}
+.knp:hover {
+	background-color: #ff0004;
+	color: #fff;
+	
+}
+.header {
+	padding-top: 25px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+.header_2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header_logo {
+	font-size: 40px;
+	font-weight: 700;
+	color: #ff0004;
+	font-family: 'Lobster', cursive;
+}
+nav {
+	font-size: 30px;
+	
+}
+.nav_link {
+	color: #ff0004;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 10px;
+}
+.nav_link:hover {
+	color: #700000;
+	transition: color 0.1s linear;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	}
+.table {
+	width:100%;
+	padding-top: 55px;
+}
+table {
+	text-align: left;
+	border-collapse: collapse;
+	border: 3px;
+	margin: 0 auto ;
+	border-style: solid;
+	border-color: #333;
+	}
+th {
+	font-size: 40px;
+	font-family: 'Pattaya', sans-serif;
+	font-weight: 400;
+}
+td {
+	font-size: 30px;
+}
